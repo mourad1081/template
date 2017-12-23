@@ -1,0 +1,20 @@
+/*
+ * Cette feuille corrige les imperfections des plugins.
+ */
+.cke_bottom {
+  border-top: none !important;
+  background: white !important;
+}
+
+#cke_content {
+  border: none;
+  border-left: solid #EEE 1px;
+  border-right: solid #EEE 1px;
+  border-top: solid #EEE 1px;
+}
+
+// Je n'ai pas envie d'afficher plus d'une ligne pour les articles.
+.ui.items>.item>.content>.description {
+  height: 2rem;
+  overflow: hidden;
+}
